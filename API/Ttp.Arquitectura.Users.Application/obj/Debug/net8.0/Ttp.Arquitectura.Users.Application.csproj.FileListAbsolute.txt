@@ -1,0 +1,15 @@
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\bin\Debug\net8.0\Ttp.Arquitectura.Users.Application.deps.json
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\bin\Debug\net8.0\Ttp.Arquitectura.Users.Application.dll
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\bin\Debug\net8.0\Ttp.Arquitectura.Users.Application.pdb
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\bin\Debug\net8.0\Ttp.Arquitectura.Users.Domain.dll
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\bin\Debug\net8.0\Ttp.Arquitectura.Users.Domain.pdb
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\obj\Debug\net8.0\Ttp.Arquitectura.Users.Application.csproj.AssemblyReference.cache
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\obj\Debug\net8.0\Ttp.Arquitectura.Users.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\obj\Debug\net8.0\Ttp.Arquitectura.Users.Application.AssemblyInfoInputs.cache
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\obj\Debug\net8.0\Ttp.Arquitectura.Users.Application.AssemblyInfo.cs
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\obj\Debug\net8.0\Ttp.Arquitectura.Users.Application.csproj.CoreCompileInputs.cache
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\obj\Debug\net8.0\Ttp.Arqu.E29EAFA8.Up2Date
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\obj\Debug\net8.0\Ttp.Arquitectura.Users.Application.dll
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\obj\Debug\net8.0\refint\Ttp.Arquitectura.Users.Application.dll
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\obj\Debug\net8.0\Ttp.Arquitectura.Users.Application.pdb
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Application\obj\Debug\net8.0\ref\Ttp.Arquitectura.Users.Application.dll

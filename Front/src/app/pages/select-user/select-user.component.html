@@ -1,0 +1,30 @@
+<div mat-dialog-title>
+    <h1 align="center">Editar nuevo usuario         <button mat-button (click)="cerrarModal()">X</button></h1>
+</div>
+<form [formGroup]="editUserForm" (ngSubmit)="onSubmit()">
+    <div mat-dialog-content class="content">
+        <div class="row">
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Nombre</mat-label>
+                <input matInput type="text" formControlName="fullName"> 
+              </mat-form-field>  
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline" class="full-width">
+              <mat-label>Fecha de nacimiento</mat-label>
+              <input matInput type="date" formControlName="birth"> 
+            </mat-form-field>  
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" formControlName="email"> 
+            </mat-form-field>  
+        </div> 
+        <div mat-dialog-actions class="action" align="end">        
+            <button [disabled]="!editUserForm.valid" class = "secondary" type="submit" mat-raised-button>Editar</button>
+        </div>        
+        <div id="divAddUsuario"  class="" style="display:none" align="center"><button mat-button (click)="cerrarModal()">X</button></div>
+    </div>         
+</form> 
+<app-ciudades [IdGuid]="this.IdGuid"></app-ciudades>

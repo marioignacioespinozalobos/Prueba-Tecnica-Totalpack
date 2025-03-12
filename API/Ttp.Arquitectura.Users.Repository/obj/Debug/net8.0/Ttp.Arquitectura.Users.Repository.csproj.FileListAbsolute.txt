@@ -1,0 +1,17 @@
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\bin\Debug\net8.0\Ttp.Arquitectura.Users.Repository.deps.json
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\bin\Debug\net8.0\Ttp.Arquitectura.Users.Repository.runtimeconfig.json
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\bin\Debug\net8.0\Ttp.Arquitectura.Users.Repository.dll
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\bin\Debug\net8.0\Ttp.Arquitectura.Users.Repository.pdb
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\bin\Debug\net8.0\Ttp.Arquitectura.Users.Domain.dll
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\bin\Debug\net8.0\Ttp.Arquitectura.Users.Domain.pdb
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arquitectura.Users.Repository.csproj.AssemblyReference.cache
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arquitectura.Users.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arquitectura.Users.Repository.AssemblyInfoInputs.cache
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arquitectura.Users.Repository.AssemblyInfo.cs
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arquitectura.Users.Repository.csproj.CoreCompileInputs.cache
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arqu.C53E8177.Up2Date
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arquitectura.Users.Repository.dll
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\refint\Ttp.Arquitectura.Users.Repository.dll
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arquitectura.Users.Repository.pdb
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arquitectura.Users.Repository.genruntimeconfig.cache
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\ref\Ttp.Arquitectura.Users.Repository.dll

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "RbbOQmX65EY=",
+  "success": true,
+  "projectFilePath": "D:\\Programar\\Pruebastecnicas\\TotalPack\\TestTecnico\\API\\Ttp.Arquitectura.Users.Application\\Ttp.Arquitectura.Users.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mario Espinoza\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\Mario Espinoza\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
+    "C:\\Users\\Mario Espinoza\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.14\\microsoft.netcore.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\Mario Espinoza\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.14\\microsoft.windowsdesktop.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\Mario Espinoza\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.14\\microsoft.aspnetcore.app.ref.8.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

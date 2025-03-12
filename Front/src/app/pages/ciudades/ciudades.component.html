@@ -1,0 +1,33 @@
+<div class="container">
+<h1 class="text-center">Direcciones</h1>
+
+<form [formGroup]="direccionesForm">
+    <div mat-dialog-content class="content">
+        <div class="row">
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Direccion</mat-label>
+                <input matInput type="text" formControlName="direccion" id="direccion"> 
+              </mat-form-field> 
+              <button class = "btn btn-danger" type="button" (click)="addDireccion()">Agregar</button> 
+        </div>                  
+    </div>         
+</form> 
+</div>  
+<div class="container">
+    <table class="table table-striped" border="1">
+        <thead>
+        <tr align="center">
+            <th>Direcciones</th>           
+            <th>Marcador Principal</th>              
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let direc of Ciudades">
+            <td>{{ direc.nombreCiudad }}</td>
+            <td align="center"><input type="checkbox" id="checkbox" [checked]="direc.checkPrincipal" value ="{{direc.checkPrincipal}}" (click)="checkDireccion(direc.idCiudad, direc.nombreCiudad, direc.checkPrincipal)"></td>             
+        </tr>
+        </tbody>              
+    </table>       
+</div>  
+    
+

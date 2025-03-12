@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ggKBbVAgumNqGFaFquGExEvtUTujSlxxTbXE3LfShTA=",
+  "Source": "Ttp.Arquitectura.Users.WebApi",
+  "BasePath": "_content/Ttp.Arquitectura.Users.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

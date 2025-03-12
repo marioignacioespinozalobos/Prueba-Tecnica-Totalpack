@@ -1,0 +1,124 @@
+[
+  {
+    "ContainingType": "Ttp.Arquitectura.Users.WebApi.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/User/AddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Ttp.Arquitectura.Users.WebApi.Models.Request.AddUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ttp.Arquitectura.Users.WebApi.Controllers.UserController",
+    "Method": "AddUserCiudades",
+    "RelativePath": "api/User/addUserCiudades",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Ttp.Arquitectura.Users.WebApi.Models.Request.AddUserCiudadesRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ttp.Arquitectura.Users.WebApi.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/DeleteUser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Ttp.Arquitectura.Users.WebApi.Models.Request.EditUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ttp.Arquitectura.Users.WebApi.Controllers.UserController",
+    "Method": "EditUser",
+    "RelativePath": "api/User/editUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Ttp.Arquitectura.Users.WebApi.Models.Request.EditUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ttp.Arquitectura.Users.WebApi.Controllers.UserController",
+    "Method": "EditUserCiudades",
+    "RelativePath": "api/User/editUserCiudades",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Ttp.Arquitectura.Users.WebApi.Models.Request.EditUserCiudadesRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ttp.Arquitectura.Users.WebApi.Controllers.UserController",
+    "Method": "GetUserAll",
+    "RelativePath": "api/User/GetUserAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ttp.Arquitectura.Users.WebApi.Controllers.UserController",
+    "Method": "GetUserCiudadesAll",
+    "RelativePath": "api/User/getUserCiudadesAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ttp.Arquitectura.Users.WebApi.Controllers.UserController",
+    "Method": "GetUserId",
+    "RelativePath": "api/User/GetUserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
