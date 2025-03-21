@@ -17,15 +17,15 @@
   },
   {
     "ContainingType": "Ttp.Arquitectura.Users.WebApi.Controllers.UserController",
-    "Method": "AddUserCiudades",
-    "RelativePath": "api/User/addUserCiudades",
+    "Method": "AddUserDirecciones",
+    "RelativePath": "api/User/addUserDirecciones",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Ttp.Arquitectura.Users.WebApi.Models.Request.AddUserCiudadesRequest",
+        "Type": "Ttp.Arquitectura.Users.WebApi.Models.Request.AddUserDireccionRequest",
         "IsRequired": true
       }
     ],
@@ -65,15 +65,15 @@
   },
   {
     "ContainingType": "Ttp.Arquitectura.Users.WebApi.Controllers.UserController",
-    "Method": "EditUserCiudades",
-    "RelativePath": "api/User/editUserCiudades",
+    "Method": "EditUserDirecciones",
+    "RelativePath": "api/User/editUserDirecciones",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Ttp.Arquitectura.Users.WebApi.Models.Request.EditUserCiudadesRequest",
+        "Type": "Ttp.Arquitectura.Users.WebApi.Models.Request.EditUserDireccionRequest",
         "IsRequired": true
       }
     ],
@@ -91,8 +91,8 @@
   },
   {
     "ContainingType": "Ttp.Arquitectura.Users.WebApi.Controllers.UserController",
-    "Method": "GetUserCiudadesAll",
-    "RelativePath": "api/User/getUserCiudadesAll",
+    "Method": "GetUserDireccionesAll",
+    "RelativePath": "api/User/getUserDireccionesAll",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

@@ -38,18 +38,19 @@ export default class DeleteUserComponent {
     
 
   ngOnInit(): void {    
-    this.loadPage();     
+    this.loadPage();   
+    this._disableForm();  
   }
 
   loadPage(): void{
-     this.usersService.getUserId(this.IdGuid).subscribe((data: Users) => {      
-      console.log(data);
+     this.usersService.getUserId(this.IdGuid).subscribe((data: Users) => {            
       if (data) {   
         this.deleteUserForm = this._fb.group({
-          birth: this.datePipe.transform(data.birth, 'yyyy-MM-dd'),
-          email: data.email,
+          nombree4: [data.fullName, {disabled: true}],     
+          birth: [this.datePipe.transform(data.birth, 'yyyy-MM-dd'), {disabled: true}],
+          email: [data.email, {disabled: true}],
           id: data.id,
-          fullName: data.fullName                       
+          fullName: [data.fullName, {disabled: true}],                             
         });       
         
         //this._disableForm();
@@ -78,7 +79,11 @@ export default class DeleteUserComponent {
 
 
   private _disableForm(): void {
-    this.deleteUserForm.disable();
+    this.deleteUserForm = this._fb.group({
+      fullName: [{disabled: true}],
+      birth: [{disabled: true}],
+      email: [{disabled: true}]
+    });
   }
 
 }

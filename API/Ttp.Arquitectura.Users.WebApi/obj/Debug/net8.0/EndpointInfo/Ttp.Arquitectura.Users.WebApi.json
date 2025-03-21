@@ -131,7 +131,7 @@
         }
       }
     },
-    "/api/User/getUserCiudadesAll": {
+    "/api/User/getUserDireccionesAll": {
       "get": {
         "tags": [
           "User"
@@ -152,7 +152,7 @@
         }
       }
     },
-    "/api/User/addUserCiudades": {
+    "/api/User/addUserDirecciones": {
       "post": {
         "tags": [
           "User"
@@ -161,17 +161,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AddUserCiudadesRequest"
+                "$ref": "#/components/schemas/AddUserDireccionRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/AddUserCiudadesRequest"
+                "$ref": "#/components/schemas/AddUserDireccionRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/AddUserCiudadesRequest"
+                "$ref": "#/components/schemas/AddUserDireccionRequest"
               }
             }
           }
@@ -183,7 +183,7 @@
         }
       }
     },
-    "/api/User/editUserCiudades": {
+    "/api/User/editUserDirecciones": {
       "post": {
         "tags": [
           "User"
@@ -192,17 +192,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/EditUserCiudadesRequest"
+                "$ref": "#/components/schemas/EditUserDireccionRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/EditUserCiudadesRequest"
+                "$ref": "#/components/schemas/EditUserDireccionRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/EditUserCiudadesRequest"
+                "$ref": "#/components/schemas/EditUserDireccionRequest"
               }
             }
           }
@@ -217,14 +217,14 @@
   },
   "components": {
     "schemas": {
-      "AddUserCiudadesRequest": {
+      "AddUserDireccionRequest": {
         "type": "object",
         "properties": {
           "id": {
             "type": "string",
             "format": "uuid"
           },
-          "nombreCiudad": {
+          "nombreDireccion": {
             "type": "string",
             "nullable": true
           },
@@ -252,10 +252,10 @@
         },
         "additionalProperties": false
       },
-      "EditUserCiudadesRequest": {
+      "EditUserDireccionRequest": {
         "type": "object",
         "properties": {
-          "idCiudad": {
+          "idDireccion": {
             "type": "string",
             "format": "uuid"
           },
@@ -263,7 +263,7 @@
             "type": "string",
             "nullable": true
           },
-          "nombreCiudad": {
+          "nombreDireccion": {
             "type": "string",
             "nullable": true
           },

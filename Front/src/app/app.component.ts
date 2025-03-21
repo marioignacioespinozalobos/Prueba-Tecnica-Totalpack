@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common'
 
@@ -11,32 +11,5 @@ import { CommonModule } from '@angular/common'
 })
 
 export class AppComponent {
-/*
-  Users?: Users[] = [];
-
-  constructor(
-    private router: Router,
-    private usersService: UsersService
-  ) {}
-
-  ngOnInit(): void {
-    this.loadPage();
-  }
-
-  loadPage(): void{
-    this.usersService.getAll().subscribe((data: Users[]) => {
-      this.Users = data;            
-    })  
-  }     
-  
-    getUser(Guid: string){
-    }
-
-    addtUser(){
-      
-    }
-    deleteUser(Guid: string){
-
-    }
-    */
+   
 }

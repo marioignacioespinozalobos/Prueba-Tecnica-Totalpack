@@ -1,29 +1,29 @@
 <div mat-dialog-title>
-    <h1 align="center">Añadir nuevo usuario add user components         <button mat-button (click)="cerrarModal()">X</button></h1>
+    <h2 align="center">Añadir nuevo usuario</h2>
 </div>
 <form [formGroup]="addUserForm" (ngSubmit)="onSubmit()">
     <div mat-dialog-content class="content">
         <div class="row">
               <mat-form-field appearance="outline" class="full-width">
                 <mat-label>Nombre</mat-label>
-                <input matInput type="text" formControlName="fullName"> 
+                <input matInput type="text" formControlName="fullName" required> 
               </mat-form-field>  
         </div>
         <div class="row">
             <mat-form-field appearance="outline" class="full-width">
               <mat-label>Fecha de nacimiento</mat-label>
-              <input matInput type="date" formControlName="birth"> 
+              <input matInput type="date" formControlName="birth" required> 
             </mat-form-field>  
         </div>
         <div class="row">
-            <mat-form-field appearance="outline" class="full-width">
+            <mat-form-field appearance="outline" class="full-width" required>
             <mat-label>Email</mat-label>
             <input matInput type="email" formControlName="email"> 
             </mat-form-field>  
         </div> 
-        <div mat-dialog-actions class="action" align="end">        
-            <button [disabled]="!addUserForm.valid" class = "primary" type="submit" mat-raised-button>Crear</button>
-        </div>        
-        <div id="divAddUsuario"  class="" style="display:none" align="center"><button mat-button (click)="cerrarModal()">X</button></div>
-    </div>         
+        <div mat-dialog-actions class="action" align="center">        
+            <button class = "btn btn-secondary" (click)="cerrarModal()">Cerrar</button>
+            <button [disabled]="!addUserForm.valid" class="btn btn-success" type="submit">Crear</button>
+        </div>
+    </div>                                 
 </form>        

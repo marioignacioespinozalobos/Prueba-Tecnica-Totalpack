@@ -9,14 +9,14 @@ import { UsersService } from '../../service/users.service';
 import { MatButtonModule } from '@angular/material/button';
 import { Users } from '../../model/users';
 import { DatePipe } from '@angular/common';
-import { CiudadesComponent } from '../ciudades/ciudades.component';
+import { DireccionesComponent } from '../direcciones/direcciones.component';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 
 @Component({
   selector: 'app-select-user',
   standalone: true,
-  imports: [RouterModule, MatFormField, MatInput, MatLabel, MatDialogContent, ReactiveFormsModule, MatDialogModule, MatButtonModule, CiudadesComponent],
+  imports: [RouterModule, MatFormField, MatInput, MatLabel, MatDialogContent, ReactiveFormsModule, MatDialogModule, MatButtonModule, DireccionesComponent],
   templateUrl: './select-user.component.html',
   styleUrl: './select-user.component.css',
   providers: [DatePipe] // Add DatePipe to providers

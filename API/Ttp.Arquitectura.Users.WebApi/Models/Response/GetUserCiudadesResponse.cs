@@ -1,10 +1,10 @@
 ﻿namespace Ttp.Arquitectura.Users.WebApi.Models.Response
 {
-    public class GetUserCiudadesResponse
+    public class GetUserDireccionResponse
     {
-        public Guid IdCiudad { get; set; }
+        public string IdDireccion { get; set; }
         public string Id { get; set; }
-        public string NombreCiudad { get; set; }
+        public string NombreDireccion { get; set; }
         public bool CheckPrincipal { get; set; }        
     }
 }

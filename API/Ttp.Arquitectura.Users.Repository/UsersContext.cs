@@ -12,13 +12,13 @@ namespace Ttp.Arquitectura.Users.Repository
         }
 
         public DbSet<User> Users { get; set; }
-        public DbSet<Ciudad> Ciudad { get; set; }
+        public DbSet<Direccion> Direccion { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<User>().ToTable("users");
-            modelBuilder.Entity<Ciudad>().ToTable("ciudad");
+            modelBuilder.Entity<Direccion>().ToTable("direccion");
         }      
 
     }

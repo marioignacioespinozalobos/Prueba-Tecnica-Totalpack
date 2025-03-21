@@ -1,4 +1,4 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component, EventEmitter, inject, OnInit } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 import { CommonModule, NgIf, NgFor } from '@angular/common'
 import { FormsModule } from '@angular/forms';
@@ -21,7 +21,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
 export default class ListUserComponent implements OnInit{
 
   Users: Users[] = [];
-  
+    
     constructor(
       private router: Router,
       private usersService: UsersService
@@ -33,7 +33,7 @@ export default class ListUserComponent implements OnInit{
 
     loadPage(): void{
       this.usersService.getAll().subscribe((data: Users[]) => {
-        this.Users = data;            
+        this.Users = data;   
       })  
     }     
     
@@ -44,17 +44,34 @@ export default class ListUserComponent implements OnInit{
     private readonly _modalService = inject(ModalService);
     
     addUserModal(){
-       this._modalService.openModal<AddUserComponent>(AddUserComponent);
-       this.loadPage();        
+
+      this._modalService.openModal<AddUserComponent>(AddUserComponent).then((data: boolean) => {
+       
+        if(data){
+          this.loadPage();          
+        }      
+      });
     }    
     
     getUserId(IdGuid: string){
-      this._modalService.openModal<SelectUserComponent>(SelectUserComponent, IdGuid, true);   
-      this.loadPage();
+      //this._modalService.openModal<SelectUserComponent>(SelectUserComponent, IdGuid);        
+      
+      this._modalService.openModal<SelectUserComponent>(SelectUserComponent, IdGuid).then((data: boolean) => {
+       
+        if(data){
+          this.loadPage();
+        }      
+      });
     }     
 
     deleteUser(IdGuid: string){
-      this._modalService.openModal<DeleteUserComponent>(DeleteUserComponent, IdGuid, true);    
-      this.loadPage();
+      //this._modalService.openModal<DeleteUserComponent>(DeleteUserComponent, IdGuid);    
+      
+      this._modalService.openModal<DeleteUserComponent>(DeleteUserComponent, IdGuid).then((data: boolean) => {
+
+        if(data){
+          this.loadPage();          
+        }      
+      });
     }
 }

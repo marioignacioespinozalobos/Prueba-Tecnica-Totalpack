@@ -3,9 +3,8 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Users } from '../model/users';
 import { CollectionGeneric } from '../model/collectionGenerics';
 import { Config } from '../config/config';
-import { GenericService } from './generic.service';
 import { Observable } from 'rxjs';
-import { Ciudades } from '../model/ciudades';
+import { Direccion } from '../model/direccion';
 
 @Injectable({
   providedIn: 'root'
@@ -43,17 +42,17 @@ export class UsersService  {
     return this._httpClient.delete(`${this.baseUrl}user/DeleteUser`, { body: user });
   }
 
-  //Ciudades
-  getUsuarioCiudades(id: any): Observable<Ciudades[]> {
-    return this._httpClient.get<Ciudades[]>(`${this.baseUrl}user/GetUserCiudadesAll?id=`+ id);
+  //Direccion
+  getUsuarioDirecciones(id: any): Observable<Direccion[]> {
+    return this._httpClient.get<Direccion[]>(`${this.baseUrl}user/GetUserDireccionesAll?id=`+ id);
   }
 
-  addUserCiudades(ciudad: Ciudades): Observable<Object> {    
-    return this._httpClient.post(`${this.baseUrl}user/AddUserCiudades`, ciudad);    
+  addUserDirecciones(ciudad: Direccion): Observable<Object> {    
+    return this._httpClient.post(`${this.baseUrl}user/AddUserDirecciones`, ciudad);    
   }
 
-  editUserCiudades(ciudad: Ciudades): Observable<Object> {   
-    return this._httpClient.post(`${this.baseUrl}user/EditUserCiudades`, ciudad);    
+  editUserDirecciones(ciudad: Direccion): Observable<Object> {   
+    return this._httpClient.post(`${this.baseUrl}user/EditUserDirecciones`, ciudad);    
   }
 }
    

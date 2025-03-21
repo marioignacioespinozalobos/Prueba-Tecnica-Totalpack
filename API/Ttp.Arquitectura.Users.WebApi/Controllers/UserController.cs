@@ -11,18 +11,19 @@ namespace Ttp.Arquitectura.Users.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController(AddUserHandler addUserHandler, GetUsersHandler getUsersHandler, GetUserIdHandler getUserIdHandler, EditUserHandler editUserHandler, DeleteUserHandler deletetUserHandler, GetCiudadesHandler getCiudadesHandler, EditUserCiudadesHandler editUserCiudadesHandler, AddUserCiudadesHandler addUserCiudadesHandler) : ControllerBase
+    public class UserController(AddUserHandler addUserHandler, GetUsersHandler getUsersHandler, GetUserIdHandler getUserIdHandler, EditUserHandler editUserHandler, DeleteUserHandler deletetUserHandler, GetDireccionesHandler getDireccionesHandler, EditUserDireccionesHandler editUserDireccionesHandler, AddUserDireccionesHandler addUserDireccionesHandler) : ControllerBase
     {
-
+        // User
         private readonly AddUserHandler _addUserHandler = addUserHandler;
         private readonly EditUserHandler _editUserHandler = editUserHandler;
         private readonly GetUsersHandler _getUsersHandler = getUsersHandler;
         private readonly GetUserIdHandler _getUserIdHandler = getUserIdHandler;
         private readonly DeleteUserHandler _deleteUserHandler = deletetUserHandler;
-        
-        private readonly GetCiudadesHandler _getCiudadesHandler = getCiudadesHandler;
-        private readonly EditUserCiudadesHandler _editUserCiudadesHandler = editUserCiudadesHandler;
-        private readonly AddUserCiudadesHandler _addUserCiudadesHandler = addUserCiudadesHandler;
+
+        // Direcciones
+        private readonly GetDireccionesHandler _getDireccionesHandler = getDireccionesHandler;
+        private readonly EditUserDireccionesHandler _editUserDireccionesHandler = editUserDireccionesHandler;
+        private readonly AddUserDireccionesHandler _addUserDireccionesHandler = addUserDireccionesHandler;
 
 
         [HttpGet]
@@ -66,25 +67,25 @@ namespace Ttp.Arquitectura.Users.WebApi.Controllers
         // Ciudades usuario
 
         [HttpGet]
-        [Route("getUserCiudadesAll")]
-        public IActionResult GetUserCiudadesAll(string Id)
-        {            
-            return Ok(_getCiudadesHandler.Handle(Id).Adapt<List<GetUserCiudadesResponse>>());
+        [Route("getUserDireccionesAll")]
+        public IActionResult GetUserDireccionesAll(string Id)
+        {
+            return Ok(_getDireccionesHandler.Handle(Id).Adapt<List<GetUserDireccionResponse>>());            
         }
 
         [HttpPost]
-        [Route("addUserCiudades")]
-        public IActionResult AddUserCiudades([FromBody] AddUserCiudadesRequest request)
+        [Route("addUserDirecciones")]
+        public IActionResult AddUserDirecciones([FromBody] AddUserDireccionRequest request)
         {
-            _addUserCiudadesHandler.Handle(request.Adapt<AddUserCiudadesCommand>());
+            _addUserDireccionesHandler.Handle(request.Adapt<AddUserDireccionesCommand>());
             return Ok();
         }
 
         [HttpPost]
-        [Route("editUserCiudades")]
-        public IActionResult EditUserCiudades([FromBody] EditUserCiudadesRequest request)
+        [Route("editUserDirecciones")]
+        public IActionResult EditUserDirecciones([FromBody] EditUserDireccionRequest request)
         {
-            _editUserCiudadesHandler.Handle(request.Adapt<EditUserCiudadesCommand>());
+            _editUserDireccionesHandler.Handle(request.Adapt<EditUserDireccionesCommand>());
             return Ok();
         }
 

@@ -161,6 +161,7 @@ D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.We
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.WebApi\obj\Debug\net8.0\Ttp.Arquitectura.Users.WebApi.csproj.CoreCompileInputs.cache
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.WebApi\obj\Debug\net8.0\Ttp.Arquitectura.Users.WebApi.MvcApplicationPartsAssemblyInfo.cs
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.WebApi\obj\Debug\net8.0\Ttp.Arquitectura.Users.WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.WebApi\obj\Debug\net8.0\Ttp.Arquitectura.Users.WebApi.sourcelink.json
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.WebApi\obj\Debug\net8.0\scopedcss\bundle\Ttp.Arquitectura.Users.WebApi.styles.css
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.WebApi\obj\Debug\net8.0\staticwebassets.build.json
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.WebApi\obj\Debug\net8.0\staticwebassets.development.json

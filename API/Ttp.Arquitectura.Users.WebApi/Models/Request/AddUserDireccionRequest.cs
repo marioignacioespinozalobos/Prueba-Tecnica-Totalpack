@@ -1,9 +1,9 @@
 ﻿namespace Ttp.Arquitectura.Users.WebApi.Models.Request
 {
-    public class AddUserCiudadesRequest
+    public class AddUserDireccionRequest
     {
         public Guid Id { get; set; }
-        public string NombreCiudad { get; set; }
+        public string NombreDireccion { get; set; }
         public bool CheckPrincipal { get; set; }
     }
 }

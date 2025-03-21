@@ -6,14 +6,24 @@ import { MatDialog } from '@angular/material/dialog';
 export class ModalService {
     
     private readonly _dialog =  inject(MatDialog);
+    public respModel: boolean = false;
 
-    openModal<CT, T = string>(componentRef: ComponentType<CT>, data?: T, isEditing = false): void {
+
+    openModal<CT, T = string>(componentRef: ComponentType<CT>, data?: T): Promise<boolean> {
        
         this._dialog.open(componentRef, {
             data: data,
             width: '90%',    
             height: '90%',                                  
+        });  
+        
+        return new Promise<boolean>((resolve) => {
+            this._dialog.afterAllClosed.subscribe(() => {
+                this.respModel = true;
+                resolve(this.respModel);
+            });
         });
+
     }    
 
     closeModal(): void {

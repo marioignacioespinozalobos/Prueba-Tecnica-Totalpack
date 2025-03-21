@@ -45,7 +45,17 @@ namespace Ttp.Arquitectura.Users.Repository
             {
                 return query.ToList();
             }
-        }       
+        }
+
+        public virtual IEnumerable<TEntity> GetId(string Id)
+        {
+            IQueryable<TEntity> query = dbSet;
+
+            // Assuming Direccion is a DbSet in the context and has a property Id
+            return context.Set<Direccion>().ToList() as IEnumerable<TEntity>;
+        }
+
+
 
         public virtual TEntity GetByID(object id)
         {

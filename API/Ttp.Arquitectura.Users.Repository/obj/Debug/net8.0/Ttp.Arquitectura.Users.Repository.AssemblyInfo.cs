@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ttp.Arquitectura.Users.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d6e5a63563ec1c85c61f8189bfbfca8c1460220")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ttp.Arquitectura.Users.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ttp.Arquitectura.Users.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

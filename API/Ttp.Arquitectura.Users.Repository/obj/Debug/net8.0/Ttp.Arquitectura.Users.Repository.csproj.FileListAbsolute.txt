@@ -9,6 +9,7 @@ D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Re
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arquitectura.Users.Repository.AssemblyInfoInputs.cache
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arquitectura.Users.Repository.AssemblyInfo.cs
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arquitectura.Users.Repository.csproj.CoreCompileInputs.cache
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arquitectura.Users.Repository.sourcelink.json
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arqu.C53E8177.Up2Date
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\Ttp.Arquitectura.Users.Repository.dll
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Repository\obj\Debug\net8.0\refint\Ttp.Arquitectura.Users.Repository.dll

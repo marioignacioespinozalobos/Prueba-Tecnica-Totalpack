@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Programar\\Pruebastecnicas\\TotalPack\\TestTecnico\\API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F87CC59D-E24A-4F97-BDD5-3FA17F97ABB6}|Ttp.Arquitectura.Users.Application\\Ttp.Arquitectura.Users.Application.csproj|d:\\programar\\pruebastecnicas\\totalpack\\testtecnico\\api\\ttp.arquitectura.users.application\\queries\\getdirecciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F87CC59D-E24A-4F97-BDD5-3FA17F97ABB6}|Ttp.Arquitectura.Users.Application\\Ttp.Arquitectura.Users.Application.csproj|solutionrelative:ttp.arquitectura.users.application\\queries\\getdirecciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9347769A-4D98-40B9-A7B2-2ADFECB23AE3}|Ttp.Arquitectura.Users.WebApi\\Ttp.Arquitectura.Users.WebApi.csproj|d:\\programar\\pruebastecnicas\\totalpack\\testtecnico\\api\\ttp.arquitectura.users.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9347769A-4D98-40B9-A7B2-2ADFECB23AE3}|Ttp.Arquitectura.Users.WebApi\\Ttp.Arquitectura.Users.WebApi.csproj|solutionrelative:ttp.arquitectura.users.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E422DA4B-F5A9-4353-BC22-2B2A761B455F}|Ttp.Arquitectura.Users.Repository\\Ttp.Arquitectura.Users.Repository.csproj|d:\\programar\\pruebastecnicas\\totalpack\\testtecnico\\api\\ttp.arquitectura.users.repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E422DA4B-F5A9-4353-BC22-2B2A761B455F}|Ttp.Arquitectura.Users.Repository\\Ttp.Arquitectura.Users.Repository.csproj|solutionrelative:ttp.arquitectura.users.repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Programar\\Pruebastecnicas\\TotalPack\\TestTecnico\\API\\Ttp.Arquitectura.Users.Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Ttp.Arquitectura.Users.Repository\\GenericRepository.cs",
+              "ToolTip": "D:\\Programar\\Pruebastecnicas\\TotalPack\\TestTecnico\\API\\Ttp.Arquitectura.Users.Repository\\GenericRepository.cs",
+              "RelativeToolTip": "Ttp.Arquitectura.Users.Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T17:59:02.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GetDirecciones.cs",
+              "DocumentMoniker": "D:\\Programar\\Pruebastecnicas\\TotalPack\\TestTecnico\\API\\Ttp.Arquitectura.Users.Application\\Queries\\GetDirecciones.cs",
+              "RelativeDocumentMoniker": "Ttp.Arquitectura.Users.Application\\Queries\\GetDirecciones.cs",
+              "ToolTip": "D:\\Programar\\Pruebastecnicas\\TotalPack\\TestTecnico\\API\\Ttp.Arquitectura.Users.Application\\Queries\\GetDirecciones.cs",
+              "RelativeToolTip": "Ttp.Arquitectura.Users.Application\\Queries\\GetDirecciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T17:57:54.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Programar\\Pruebastecnicas\\TotalPack\\TestTecnico\\API\\Ttp.Arquitectura.Users.WebApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Ttp.Arquitectura.Users.WebApi\\Controllers\\UserController.cs",
               "ToolTip": "D:\\Programar\\Pruebastecnicas\\TotalPack\\TestTecnico\\API\\Ttp.Arquitectura.Users.WebApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "Ttp.Arquitectura.Users.WebApi\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T14:34:01.964Z",
+              "WhenOpened": "2025-03-17T21:57:39.678Z",
               "EditorCaption": ""
             }
           ]

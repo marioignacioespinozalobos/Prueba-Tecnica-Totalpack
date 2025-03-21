@@ -1,35 +1,35 @@
 <div mat-dialog-title>
-    <h1 align="center">Eliminar usuario         <button mat-button (click)="cerrarModal()">X</button></h1>
+    <h2 align="center">Eliminar usuario</h2>
 </div>
 <form [formGroup]="deleteUserForm">
     <div mat-dialog-content class="content">
-        <div class="row">
+        <div class="row" style="display:none">
             <mat-form-field appearance="outline" class="full-width">
             <mat-label>nombre</mat-label>
-            <input matInput type="text" formControlName="nombree4"> 
+                <input matInput type="text" formControlName="nombree4">
             </mat-form-field>  
         </div>
         <div class="row">
             <mat-form-field appearance="outline" class="full-width">
             <mat-label>Nombre</mat-label>
-            <input matInput type="text" formControlName="fullName"> 
+                <input matInput type="text" formControlName="fullName" readonly="true"> 
             </mat-form-field>  
         </div> 
         <div class="row">
             <mat-form-field appearance="outline" class="full-width">
               <mat-label>Fecha de nacimiento</mat-label>
-              <input matInput type="date" formControlName="birth"> 
+                <input matInput type="date" formControlName="birth"  readonly="true"> 
             </mat-form-field>  
         </div>
         <div class="row">
             <mat-form-field appearance="outline" class="full-width">
             <mat-label>Email</mat-label>
-            <input matInput type="email" formControlName="email"> 
+                <input matInput type="email" formControlName="email"  readonly="true"> 
             </mat-form-field>  
         </div>        
-        <div mat-dialog-actions class="action" align="end">        
-            <button class = "secondary" type="button" mat-raised-button (click)="onSubmit()">Eliminar</button>
-        </div>        
-        <div id="divAddUsuario"  class="button btn-btn-danger" align="center"><button mat-button (click)="cerrarModal()">Cancelar</button></div>
+        <div mat-dialog-actions class="action" align="center">        
+            <button class = "btn btn-secondary" (click)="cerrarModal()">Cerrar</button>
+            <button class="btn btn-danger" type="button" (click)="onSubmit()">Eliminar</button>
+        </div>               
     </div>         
 </form> 

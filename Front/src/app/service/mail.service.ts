@@ -5,7 +5,7 @@ import { CollectionGeneric } from '../model/collectionGenerics';
 import { Config } from '../config/config';
 import { GenericService } from './generic.service';
 import { Observable } from 'rxjs';
-import { Ciudades } from '../model/ciudades';
+import { Ciudades } from '../model/direccion';
 import { ok } from 'assert';
 
 @Injectable({

@@ -5,6 +5,7 @@ D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Do
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Domain\obj\Debug\net8.0\Ttp.Arquitectura.Users.Domain.AssemblyInfoInputs.cache
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Domain\obj\Debug\net8.0\Ttp.Arquitectura.Users.Domain.AssemblyInfo.cs
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Domain\obj\Debug\net8.0\Ttp.Arquitectura.Users.Domain.csproj.CoreCompileInputs.cache
+D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Domain\obj\Debug\net8.0\Ttp.Arquitectura.Users.Domain.sourcelink.json
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Domain\obj\Debug\net8.0\Ttp.Arquitectura.Users.Domain.dll
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Domain\obj\Debug\net8.0\refint\Ttp.Arquitectura.Users.Domain.dll
 D:\Programar\Pruebastecnicas\TotalPack\TestTecnico\API\Ttp.Arquitectura.Users.Domain\obj\Debug\net8.0\Ttp.Arquitectura.Users.Domain.pdb

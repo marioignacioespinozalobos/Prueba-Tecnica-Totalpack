@@ -1,5 +1,5 @@
 <div mat-dialog-title>
-    <h1 align="center">Editar nuevo usuario         <button mat-button (click)="cerrarModal()">X</button></h1>
+    <h2 align="center">Editar nuevo usuario</h2>
 </div>
 <form [formGroup]="editUserForm" (ngSubmit)="onSubmit()">
     <div mat-dialog-content class="content">
@@ -22,9 +22,9 @@
             </mat-form-field>  
         </div> 
         <div mat-dialog-actions class="action" align="end">        
-            <button [disabled]="!editUserForm.valid" class = "secondary" type="submit" mat-raised-button>Editar</button>
-        </div>        
-        <div id="divAddUsuario"  class="" style="display:none" align="center"><button mat-button (click)="cerrarModal()">X</button></div>
+            <button [disabled]="!editUserForm.valid" class = "btn btn-secondary" type="button" (click)="cerrarModal()">Cerrar</button>
+            <button [disabled]="!editUserForm.valid" class = "btn btn-success" type="submit">Editar</button>            
+        </div>                
     </div>         
 </form> 
-<app-ciudades [IdGuid]="this.IdGuid"></app-ciudades>
+<app-direcciones [IdGuid]="this.IdGuid"></app-direcciones>

@@ -19,13 +19,13 @@ builder.Services.AddScoped<AddUserHandler>(); // Registro de AddUserHandler
 builder.Services.AddScoped<GetUserIdHandler>(); // Registro de GetUserIdHandler
 builder.Services.AddScoped<EditUserHandler>(); // Registro de EditUserCommand
 builder.Services.AddScoped<DeleteUserHandler>(); // Registro de DeleteUserHandler
-builder.Services.AddScoped<GetCiudadesHandler>(); // Registro de GetCiudadesHandler
-builder.Services.AddScoped<AddUserCiudadesHandler>(); // Registro de AddUserCiudadesHandler
-builder.Services.AddScoped<EditUserCiudadesHandler>(); // Registro de EditUserCiudadesHandler
+builder.Services.AddScoped<GetDireccionesHandler>(); // Registro de GetCiudadesHandler
+builder.Services.AddScoped<AddUserDireccionesHandler>(); // Registro de AddUserCiudadesHandler
+builder.Services.AddScoped<EditUserDireccionesHandler>(); // Registro de EditUserCiudadesHandler
 
 // Register repository
 builder.Services.AddScoped<IGenericRepository<User>, GenericRepository<User>>();
-builder.Services.AddScoped<IGenericRepository<Ciudad>, GenericRepository<Ciudad>>();// Registro de IGenericRepository<User>
+builder.Services.AddScoped<IGenericRepository<Direccion>, GenericRepository<Direccion>>();// Registro de IGenericRepository<User>
 
 builder.Services.AddDbContext<UsersContext>(option =>
 {
